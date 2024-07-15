@@ -56,7 +56,7 @@ defmodule Simplechat.MixProject do
       {:jason, "~> 1.2"},
       {:dns_cluster, "~> 0.1.1"},
       {:bandit, "~> 1.5"},
-      {:mnemonic, "~> 0.2.0"}
+      {:mnemonic_slugs, "~> 0.0.3"}
     ]
   end
 
