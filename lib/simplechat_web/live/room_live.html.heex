@@ -2,11 +2,16 @@
 
 <div id="chat-container"> 
   <div id="chat-messages">
-    chat goes here
+       <%= for {room_id, message} <- @messages do %>
+          <p><strong><%= room_id %>:</strong> <%= message %></p>
+        <% end %>
   </div>
-  <.form :let={f} for={:chat}, id= "chat-form",  phx_submit= "submit_message"  %>
-     <%= text_input f, :message, placeholder: "Enter Message" %>
-     <%= submit "Send" %>
-   </.form>   
+  <form phx-submit="submit_message">
+     <input type="text"
+     name="message"
+     value={@message} 
+     phx-submit="submit-message" placeholder="Enter Your Message..."/>
+      <button type="submit" />
+   </form> 
 </div>
 
