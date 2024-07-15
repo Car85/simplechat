@@ -3,8 +3,10 @@ defmodule SimplechatWeb.RoomLive do
   require Logger
 
   @impl true
-  def mount(_params, _session, socket) do
-    {:ok, assign(socket, messages: [], room_id: "default-room", message: "")}
+  def mount(%{"id" => room_id}, _session, socket) do
+    topic = "room:" <> room_id
+    SimplechatWeb.Endpoint.subscribe(topic)
+    {:ok, assign(socket, messages: [], room_id: room_id, message: "", topic: topic, messages: ["Welcome to SimpleChat"])}
   end
 
   @impl true
