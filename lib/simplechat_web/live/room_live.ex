@@ -4,6 +4,6 @@ defmodule SimplechatWeb.RoomLive do
 
   @impl true
   def mount(%{"id" => room_id}, _session, socket) do
-    {:ok, socket}
+    {:ok, assign(socket, room_id: room_id)}
   end
 end
