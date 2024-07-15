@@ -1,5 +1,6 @@
 defmodule SimplechatWeb.PageLive do
   use Phoenix.LiveView
+  require Logger
 
   @impl true
   def mount(_params, _session, socket) do
@@ -8,7 +9,9 @@ defmodule SimplechatWeb.PageLive do
 
   @impl true
   def handle_event("random-room", _params, socket) do
-    {:noreply, socket}
+    room = "/" <> MnemonicSlugs.generate_slug(4)
+    Logger.info(room)
+    {:noreply, push_redirect(socket, to: room)}
   end  
 end
 
