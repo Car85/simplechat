@@ -1,9 +1,9 @@
 <p>Currently chatting in <strong><%= @room_id %></strong></p>
 
 <div id="chat-container"> 
-  <div id="chat-messages">
+  <div id="chat-messages" phx-update="replace">
        <%= for message <- @messages do %>
-          <p><strong><%= message %>:</strong></p>
+       <p><%= message %></p>
         <% end %>
   </div>
   <form phx-submit="submit_message">
