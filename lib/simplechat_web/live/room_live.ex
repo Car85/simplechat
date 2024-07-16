@@ -5,7 +5,7 @@ defmodule SimplechatWeb.RoomLive do
   @impl true
   def mount(%{"id" => room_id}, _session, socket) do
     topic = "room:" <> room_id
-    SimplechatWeb.Endpoint.subscribe(topic)
+    if connected?(socket), do: SimplechatWeb.Endpoint.subscribe(topic)
     {:ok,
       assign(socket,
         room_id: room_id,
