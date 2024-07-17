@@ -3,7 +3,7 @@
 <div id="chat-container"> 
   <div id="chat-messages" phx-update="replace">
        <%= for message <- @messages do %>
-       <p><%= message %></p>
+       <p id={message.uuid}> <%= message.content %> </p>
         <% end %>
   </div>
   <form phx-submit="submit_message">
