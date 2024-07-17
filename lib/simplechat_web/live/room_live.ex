@@ -10,6 +10,7 @@ defmodule SimplechatWeb.RoomLive do
       assign(socket,
         room_id: room_id,
         topic: topic,
+        new_message: "",
         messages: [%{uuid: UUID.uuid4(), content: "Welcome to SimpleChat"}], 
         temporary_assigns: [messages: [] ])}
   end
@@ -18,7 +19,13 @@ defmodule SimplechatWeb.RoomLive do
    def handle_event("submit_message", %{"message" => message}, socket) do
      message = %{uuid: UUID.uuid4(), content: message}
      SimplechatWeb.Endpoint.broadcast(socket.assigns.topic, "new-message",message)
-    {:noreply, socket}
+    {:noreply, assign(socket, new_message: "" )}
+   end
+
+  @impl true
+   def handle_event("form_update", %{"message" => message}, socket) do
+     Logger.info("Form updated with message: #{message}")
+     {:noreply, assign(socket, new_message: message)}
    end
 
   @impl true

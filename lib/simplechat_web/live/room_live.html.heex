@@ -6,10 +6,11 @@
        <p id={message.uuid}> <%= message.content %> </p>
         <% end %>
   </div>
-  <form phx-submit="submit_message">
+  <form phx-submit="submit_message" phx-change="form_update">
      <input type="text"
-     name="message" 
-     phx-submit="submit-message" placeholder="Enter Your Message..."/>
+     name="message"
+     value={@new_message} 
+     placeholder="Enter Your Message..."/>
       <button type="submit" />
    </form> 
 </div>
