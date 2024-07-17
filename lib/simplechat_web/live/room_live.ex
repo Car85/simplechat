@@ -6,8 +6,11 @@ defmodule SimplechatWeb.RoomLive do
   def mount(%{"id" => room_id}, _session, socket) do
     topic = "room:" <> room_id
     username = MnemonicSlugs.generate_slug(2)
-    if connected?(socket), do: SimplechatWeb.Endpoint.subscribe(topic)
-    {:ok,
+    if connected?(socket) do
+      SimplechatWeb.Endpoint.subscribe(topic)
+      SimplechatWeb.Presence.track(self(), topic, username, %{})
+    end  
+     {:ok,
       assign(socket,
         room_id: room_id,
         topic: topic,
@@ -32,5 +35,18 @@ defmodule SimplechatWeb.RoomLive do
   @impl true
   def handle_info(%{event: "new-message", payload: message}, socket) do
         {:noreply, assign(socket, messages: socket.assigns.messages ++ [message])}
+  end
+
+  @impl true
+  def handle_info(%{event: "presence_diff", payload: %{joins: joins, leaves: leaves}}, socket) do
+    join_messages = 
+      joins
+      |> Map.keys()
+      |> Enum.map(fn username -> %{uuid: UUID.uuid4(), content: "#{username} joined", username: "system"} end)
+
+     leave_messages = leaves
+     |> Map.keys()
+     |> Enum.map(fn username -> %{uuid: UUID.uuid4(), content: "#{username} left", username: "system"} end)
+    {:noreply, assign(socket, messages: join_messages ++ leave_messages)}
   end
 end
