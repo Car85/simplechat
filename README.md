@@ -63,6 +63,7 @@ Ensure you have the following installed:
 
 ### 🛠️ Additional Features
 
+- [ ] **Api Rest**: Add an API REST
 - [ ] **Emoji Support**: Add support for users to send and display emojis in their messages.
 - [ ] **File Sharing**: Enable users to share files within the chat.
 - [ ] **Private Messaging**: Implement private messaging between users.
