@@ -71,6 +71,11 @@ Ensure you have the following installed:
 - [ ] **User Profiles**: Create user profiles with customizable avatars and statuses.
 - [ ] **Create a Chromium Extension**: Develop a Chromium extension that integrates with the SimpleChat application. This extension should allow users to interact with the chat directly from their browser toolbar, providing notifications for new messages and enabling quick access to the chat interface.
 
+### 🔬  Testing
+
+- [ ] ** Phoenix.LiveViewTest **
+
+
 ## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any enhancements or bug fixes.
