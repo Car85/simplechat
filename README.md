@@ -30,26 +30,21 @@ Ensure you have the following installed:
     cd simplechat
     ```
 
-2. Install dependencies:
+2. Install dependencies & compile:
 
     ```sh
     mix deps.get
-    npm install --prefix assets
+    mix deps.compile
+
     ```
 
-3. Setup the database:
-
-    ```sh
-    mix ecto.setup
-    ```
-
-4. Start the Phoenix server:
+3. Start the Phoenix server:
 
     ```sh
     mix phx.server
     ```
 
-5. Open your browser and navigate to `http://localhost:4000`.
+4. Open your browser and navigate to `http://localhost:4000`.
 
 ## Usage
 
