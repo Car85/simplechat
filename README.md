@@ -18,7 +18,6 @@ Ensure you have the following installed:
 
 - Elixir
 - Phoenix
-- PostgreSQL
 
 ### Installation
 
