@@ -4,17 +4,31 @@
 
 /* This file is for your main application CSS */
 
-
-#chat-container{  
+#chat-container {
   display: flex;
+  flex-direction: column;
   border: 1px solid #cccccc;
   padding: 1em;
   margin: -1em 1 1em -1em;
-  flex-direction: column;
-  justify-content: space-between;
   height: 500px;
+}
+
+#chat-main {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
 }
 
 #chat-messages {
   flex-grow: 1;
+  overflow-y: auto;
+  margin-right: 1em;
 }
+
+#user-list {
+  width: 200px;
+  border-left: 1px solid #cccccc;
+  padding-left: 1em;
+  overflow-y: auto;
+}
+

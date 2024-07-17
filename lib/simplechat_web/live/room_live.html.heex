@@ -1,21 +1,21 @@
 <p>Currently chatting in <strong><%= @room_id %></strong> as <strong><%= @username %></strong></p>
 
-<div id="chat-container"> 
+<div id="chat-container">
   <div id="chat-main">
     <div id="chat-messages" phx-update="replace">
-        <%= for message <- @messages do %>
-        <%= display_message(message)  %>
+      <%= for message <- @messages do %>
+        <%= display_message(message) %>
       <% end %>
     </div>
     <div id="user-list">
       <h2>Users Online</h2>
-      <p>user 1</p>
-      <p>user 2</p>
+      <%= for user <- @user_list do %>
+          <p><%= user %></p>
+      <%= end %>
     </div>
   </div>
   <form phx-submit="submit_message" phx-change="form_update">
     <input type="text" name="message" value={@new_message} placeholder="Enter Your Message..."/>
     <button type="submit">Send</button>
-  </form> 
+  </form>
 </div>
-

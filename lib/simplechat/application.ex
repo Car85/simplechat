@@ -16,7 +16,8 @@ defmodule Simplechat.Application do
       # Start a worker by calling: Simplechat.Worker.start_link(arg)
       # {Simplechat.Worker, arg},
       # Start to serve requests, typically the last entry
-      SimplechatWeb.Endpoint
+      SimplechatWeb.Endpoint,
+      SimplechatWeb.Presence
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

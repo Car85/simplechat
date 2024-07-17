@@ -51,10 +51,9 @@ defmodule SimplechatWeb do
 
   def live_view do
     quote do
-      use Phoenix.LiveView,
-        layout: {SimplechatWeb.Layouts, :app}
-
-      unquote(html_helpers())
+      use Phoenix.LiveView
+      import Phoenix.LiveView.Helpers 
+      import Phoenix.HTML
     end
   end
 
