@@ -50,6 +50,10 @@ Ensure you have the following installed:
 - Messages are displayed in real-time to all connected users.
 - User presence is tracked, and notifications are displayed when users join or leave.
 
+## Demo
+
+![SimpleChat Demo](/assets/simplechat_demo.gif)
+
 ## TODO
 
 ### 🎨 UI/UX Enhancements
