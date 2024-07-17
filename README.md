@@ -18,7 +18,6 @@ Ensure you have the following installed:
 
 - Elixir
 - Phoenix
-- Node.js
 - PostgreSQL
 
 ### Installation
