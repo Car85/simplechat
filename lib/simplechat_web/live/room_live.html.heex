@@ -1,4 +1,9 @@
-<div id="chat-container">
+<div id="chat-container" data-theme={@theme} style="background-color: grey;">
+  <div id="theme-switcher" style="background-color: grey;">
+    <label for="theme-toggle">Change Theme</label>
+    <button type="switch" id="theme-toggle" phx-click="toggle_theme" class={"switch " <> if @theme == "dark", do: "checked", else: ""}/>
+    <span class="slider"></span>
+  </div>
   <div id="chat-main">
     <div id="chat-messages" phx-update="replace">
       <%= for message <- @messages do %>
@@ -12,8 +17,8 @@
       <% end %>
     </div>
   </div>
-  <form phx-submit="submit_message" phx-change="form_update">
-    <input type="text" name="message" value={@new_message} placeholder="Enter Your Message..."/>
-    <button type="submit">Send</button>
+  <form style="background-color: grey;" phx-submit="submit_message" phx-change="form_update">
+    <input id="box-messages" type="text" name="message" value={@new_message} placeholder="Enter Your Message..."/> 
+    <button type="submit" style="width: 55px; background-color: #4B4B4B;">Send</button>
   </form>
 </div>

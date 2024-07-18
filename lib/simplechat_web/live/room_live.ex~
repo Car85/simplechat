@@ -33,7 +33,8 @@ defmodule SimplechatWeb.RoomLive do
        messages: [%{uuid: UUID.uuid4(), content: "Welcome to SimpleChat #{username}", username: "system", color_class: "color-default"}],
        user_list: user_list,
        user_colors: user_colors,
-       temporary_assigns: [messages: []]
+       temporary_assigns: [messages: []],
+       theme: "light"
      )
    }
   end
@@ -49,6 +50,12 @@ defmodule SimplechatWeb.RoomLive do
   def handle_event("form_update", %{"message" => message}, socket) do
     {:noreply, assign(socket, new_message: message)}
   end
+  
+   @impl true
+  def handle_event("toggle_theme", _params, socket) do
+    new_theme = if socket.assigns.theme == "light", do: "dark", else: "light"
+    {:noreply, assign(socket, theme: new_theme)}
+  end
 
   @impl true
   def handle_info(%{event: "new-message", payload: message}, socket) do
@@ -57,26 +64,27 @@ defmodule SimplechatWeb.RoomLive do
   end
 
   @impl true
-  def handle_info(%{event: "presence_diff", payload: %{joins: joins, leaves: leaves}}, socket) do
-    join_messages =
-      joins
-      |> Map.keys()
-      |> Enum.map(fn username -> %{type: :system, uuid: UUID.uuid4(), content: "#{username} joined", color_class: "color-default"} end)
-
-    leave_messages =
-      leaves
-      |> Map.keys()
-      |> Enum.map(fn username -> %{type: :system, uuid: UUID.uuid4(), content: "#{username} joined", color_class: "color-default"} end)
-
-    user_colors = Map.merge(socket.assigns.user_colors, Map.new(joins, fn {user, meta} -> {user, meta[:color_class]} end))
-    user_colors = Enum.reduce(leaves, user_colors, fn user, acc -> Map.delete(acc, user) end)
-
-    user_list = Map.keys(user_colors)
+def handle_info(%{event: "presence_diff", payload: %{joins: joins, leaves: leaves}}, socket) do
+  join_messages =
+    joins
     |> Map.keys()
+    |> Enum.map(fn username -> %{type: :system, uuid: UUID.uuid4(), content: "#{username} joined", color_class: "color-default"} end)
 
-    new_messages = join_messages ++ leave_messages
-    {:noreply, assign(socket, messages: socket.assigns.messages ++ new_messages, user_list: user_list, user_colors: user_colors)}
-  end
+  leave_messages =
+    leaves
+    |> Map.keys()
+    |> Enum.map(fn username -> %{type: :system, uuid: UUID.uuid4(), content: "#{username} left", color_class: "color-default"} end)
+
+  user_colors = socket.assigns.user_colors
+  user_colors = Enum.reduce(joins, user_colors, fn {user, meta}, acc -> Map.put(acc, user, meta[:metas] |> List.first() |> Map.get(:color_class, "color-default")) end)
+  user_colors = Enum.reduce(leaves, user_colors, fn user, acc -> Map.delete(acc, user) end)
+
+  user_list = Map.keys(user_colors)
+
+  new_messages = join_messages ++ leave_messages
+  {:noreply, assign(socket, messages: socket.assigns.messages ++ new_messages, user_list: user_list, user_colors: user_colors)}
+end
+
 
   def display_message(%{type: :system, uuid: uuid, content: content, color_class: color_class}) do
     assigns = %{uuid: uuid, content: content, color_class: color_class}
