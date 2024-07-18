@@ -1,0 +1,549 @@
+Erlang/OTP 27 [erts-15.0.1] [source] [64-bit] [smp:4:4] [ds:4:4:10] [async-threads:1] [jit:ns]
+
+[error] `inotify-tools` is needed to run `file_system` for your system, check https://github.com/rvoicilas/inotify-tools/wiki for more information about how to install it. If it's already installed but not be found, appoint executable file with `config.exs` or `FILESYSTEM_FSINOTIFY_EXECUTABLE_FILE` env.
+[warning] Not able to start file_system worker, reason: {:error, :fs_inotify_bootstrap_error}
+[warning] Could not start Phoenix live-reload because we cannot listen to the file system.
+You don't need to worry! This is an optional feature used during development to
+refresh your browser when you save files and it does not affect production.
+
+[info] Running SimplechatWeb.Endpoint with Bandit 1.5.5 at 127.0.0.1:4000 (http)
+[info] Access SimplechatWeb.Endpoint at http://localhost:4000
+[watch] build finished, watching for changes...
+Interactive Elixir (1.17.2) - press Ctrl+C to exit (type h() ENTER for help)
+iex(1)> 
+Rebuilding...
+
+Done in 762ms.
+[info] CONNECTED TO Phoenix.LiveView.Socket in 42µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "NCIDLx4UCHpHOV0vYBQoIGByPShjIgFAVLAlWsyB0MlUUeng7Csn0afp", "_live_referer" => "undefined", "_mounts" => "1", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 38µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "PDkKf10BeAEkCwgNIwUEHixUFydgeXNfhSB1no5vmalBnbfpmaXB2106", "_live_referer" => "undefined", "_mounts" => "1", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 27µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "FQ4JP0MYHzkWOig_JzcxPy9zfyw7AHcvAdAqpvRN_PLpjPSQnF0IiH4F", "_live_referer" => "http://localhost:4000/", "_mounts" => "1", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "eric-barbara-ticket-bernard"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "eric-barbara-ticket-bernard"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "eric-barbara-ticket-bernard"}
+  Session: %{"_csrf_token" => "bnBCIgq8wt1z5qFGW1NFSCg0"}
+[debug] Replied in 20ms
+[debug] Replied in 20ms
+[debug] Replied in 20ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 32µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "FVMaeGUoGj8-XSUHDC0YDBZPYj0TCxQDA9R6VFWHw7AHAJzbWz-XACWj", "_live_referer" => "undefined", "_mounts" => "1", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "eric-barbara-ticket-bernard"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 564µs
+[debug] MOUNT SimplechatWeb.PageLive
+  Parameters: %{}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 191µs
+[info] CONNECTED TO Phoenix.LiveView.Socket in 44µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "FQ4JP0MYHzkWOig_JzcxPy9zfyw7AHcvAdAqpvRN_PLpjPSQnF0IiH4F", "_live_referer" => "http://localhost:4000/", "_mounts" => "0", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[info] GET /
+[debug] MOUNT SimplechatWeb.PageLive
+  Parameters: %{}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 118µs
+[debug] Processing with SimplechatWeb.PageLive.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 54ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 37µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "bTMwGEIZJwMRGyoDYDIaCggNdjUKfRQr9YxVqwjtXqNL-UxdI89PX5WB", "_live_referer" => "undefined", "_mounts" => "0", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[debug] MOUNT SimplechatWeb.PageLive
+  Parameters: %{}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 117µs
+[debug] HANDLE EVENT "random-room" in SimplechatWeb.PageLive
+  Parameters: %{"value" => ""}
+[info] /axiom-book-soviet-static
+[debug] Replied in 9ms
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "axiom-book-soviet-static"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 554µs
+[debug] HANDLE EVENT "form_update" in SimplechatWeb.RoomLive
+  Parameters: %{"_target" => ["message"], "message" => "h"}
+[debug] Replied in 973µs
+[debug] HANDLE EVENT "form_update" in SimplechatWeb.RoomLive
+  Parameters: %{"_target" => ["message"], "message" => "ho"}
+[debug] Replied in 106µs
+[debug] HANDLE EVENT "form_update" in SimplechatWeb.RoomLive
+  Parameters: %{"_target" => ["message"], "message" => "hol"}
+[debug] Replied in 505µs
+[debug] HANDLE EVENT "form_update" in SimplechatWeb.RoomLive
+  Parameters: %{"_target" => ["message"], "message" => "hola"}
+[debug] Replied in 437µs
+[debug] HANDLE EVENT "submit_message" in SimplechatWeb.RoomLive
+  Parameters: %{"message" => "hola"}
+[debug] Replied in 403µs
+[error] GenServer #PID<0.963.0> terminating
+** (Protocol.UndefinedError) protocol Phoenix.HTML.Safe not implemented for %{uuid: "90037d8d-e5fb-4777-ad06-58be26c34a0f", content: "hola", color_class: "color-17", username: "gondola-order"} of type Map. This protocol is implemented for the following type(s): Atom, BitString, Date, DateTime, Float, Integer, List, NaiveDateTime, Phoenix.LiveComponent.CID, Phoenix.LiveView.Component, Phoenix.LiveView.Comprehension, Phoenix.LiveView.JS, Phoenix.LiveView.Rendered, Time, Tuple, URI
+    (phoenix_html 4.1.1) lib/phoenix_html/safe.ex:1: Phoenix.HTML.Safe.impl_for!/1
+    (phoenix_html 4.1.1) lib/phoenix_html/safe.ex:15: Phoenix.HTML.Safe.to_iodata/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:93: anonymous fn/6 in SimplechatWeb.RoomLive.display_message/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:391: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:559: anonymous fn/3 in Phoenix.LiveView.Diff.traverse_comprehension/5
+    (elixir 1.17.2) lib/enum.ex:1829: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+    (elixir 1.17.2) lib/enum.ex:1829: Enum."-map_reduce/3-lists^mapfoldl/2-0-"/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:430: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:532: anonymous fn/4 in Phoenix.LiveView.Diff.traverse_dynamic/7
+    (elixir 1.17.2) lib/enum.ex:2531: Enum."-reduce/3-lists^foldl/2-0-"/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:366: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:340: :proc_lib.wake_up/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:axiom-book-soviet-static", event: "new-message", payload: %{uuid: "fb429e13-c1dd-44ef-b299-f29b489c69c0", content: %{uuid: "90037d8d-e5fb-4777-ad06-58be26c34a0f", content: "hola", color_class: "color-17", username: "gondola-order"}, username: "gondola-order"}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NCeiqYi2Bb1gNi", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.963.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "19937190-6097-435c-967f-72f31bb5aa98", content: "Welcome to SimpleChat gondola-order", color_class: "color-default", username: "system"}, %{type: :system, uuid: "62eae34c-09b1-405f-8dfe-4b280c174865", content: "gondola-order joined"}], __changed__: %{}, flash: %{}, topic: "room:axiom-book-soviet-static", live_action: :index, temporary_assigns: [messages: []], username: "gondola-order", user_color_class: "color-17", new_message: "", user_colors: %{"gondola-order" => "color-17"}, user_list: ["gondola-order"], room_id: "axiom-book-soviet-static"}, transport_pid: #PID<0.901.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NCeiqYi2Bb1gNi", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "12", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "axiom-book-soviet-static"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 1ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 45µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "bTMwGEIZJwMRGyoDYDIaCggNdjUKfRQr9YxVqwjtXqNL-UxdI89PX5WB", "_live_referer" => "http://localhost:4000/", "_mounts" => "1", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "axiom-book-soviet-static"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 2ms
+
+Rebuilding...
+
+Done in 105ms.
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+[info] CONNECTED TO Phoenix.LiveView.Socket in 40µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "bTMwGEIZJwMRGyoDYDIaCggNdjUKfRQr9YxVqwjtXqNL-UxdI89PX5WB", "_live_referer" => "http://localhost:4000/", "_mounts" => "2", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[info] CONNECTED TO Phoenix.LiveView.Socket in 41µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "bTMwGEIZJwMRGyoDYDIaCggNdjUKfRQr9YxVqwjtXqNL-UxdI89PX5WB", "_live_referer" => "http://localhost:4000/", "_mounts" => "2", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+
+Rebuilding...
+
+Done in 71ms.
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+
+Rebuilding...
+
+Done in 68ms.
+Compiling 1 file (.ex)
+[info] GET /
+[debug] Processing with SimplechatWeb.PageLive.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 9ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 32µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "HRwDCXQxJjMzOj43LlMEFDN5JlwmcRtQIvKGG_kDzPZxc4fzrLi9t9X9", "_live_referer" => "undefined", "_mounts" => "0", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[debug] MOUNT SimplechatWeb.PageLive
+  Parameters: %{}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 115µs
+[debug] HANDLE EVENT "random-room" in SimplechatWeb.PageLive
+  Parameters: %{"value" => ""}
+[info] /open-parking-erosion-queen
+[debug] Replied in 2ms
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 704µs
+[error] GenServer #PID<0.4211.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "adca0289-875f-48fd-b8d8-17618a50bf58", content: "omega-exile joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"omega-exile" => %{metas: [%{phx_ref: "F-NDeGInnLVLOEvi", color_class: "color-2"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4211.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "f522dfc4-9494-407b-aa62-c14ca89b20fd", content: "Welcome to SimpleChat omega-exile", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "omega-exile", user_color_class: "color-2", new_message: "", user_colors: %{"omega-exile" => "color-2"}, user_list: MapSet.new(["omega-exile"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "12", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 1ms
+[error] GenServer #PID<0.4234.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "57335edf-9913-4023-9632-3211ea106c6a", content: "wedding-sonic joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"wedding-sonic" => %{metas: [%{phx_ref: "F-NDeKG0cD5LOH1h", color_class: "color-16"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4234.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "1eded337-5f96-4759-ad98-f59c8d41c22c", content: "Welcome to SimpleChat wedding-sonic", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "wedding-sonic", user_color_class: "color-16", new_message: "", user_colors: %{"wedding-sonic" => "color-16"}, user_list: MapSet.new(["wedding-sonic"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "13", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 1ms
+[error] GenServer #PID<0.4259.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "0f6b3e29-273d-4107-8d3b-beded1d11125", content: "harvest-shoe joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"harvest-shoe" => %{metas: [%{phx_ref: "F-NDeOJ-7TRLOH2B", color_class: "color-14"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4259.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "acf01599-c3a2-466a-924a-93977eef8f07", content: "Welcome to SimpleChat harvest-shoe", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "harvest-shoe", user_color_class: "color-14", new_message: "", user_colors: %{"harvest-shoe" => "color-14"}, user_list: MapSet.new(["harvest-shoe"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "14", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 3ms
+[error] GenServer #PID<0.4282.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "481ab099-58e2-4e00-b084-4184f22d1f1b", content: "total-guest joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"total-guest" => %{metas: [%{phx_ref: "F-NDeSNokX1LOH5B", color_class: "color-10"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4282.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "87af2762-a117-4da8-9a3e-9cf522b2d6d2", content: "Welcome to SimpleChat total-guest", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "total-guest", user_color_class: "color-10", new_message: "", user_colors: %{"total-guest" => "color-10"}, user_list: MapSet.new(["total-guest"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "15", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 1ms
+[error] GenServer #PID<0.4305.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "2fdf2e5d-1641-4751-8d42-a780d140221b", content: "flood-vertigo joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"flood-vertigo" => %{metas: [%{phx_ref: "F-NDeWUiAT9LODcj", color_class: "color-13"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4305.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "f84e4a51-9d4b-406d-bb73-ea855414c065", content: "Welcome to SimpleChat flood-vertigo", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "flood-vertigo", user_color_class: "color-13", new_message: "", user_colors: %{"flood-vertigo" => "color-13"}, user_list: MapSet.new(["flood-vertigo"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "16", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 574µs
+[error] GenServer #PID<0.4328.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "d3fcdcbc-775a-4827-8aa8-b8491210d020", content: "chapter-trick joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"chapter-trick" => %{metas: [%{phx_ref: "F-NDeaOzTXVLOH6B", color_class: "color-8"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4328.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "d1dd0eee-b774-4884-9848-70072968738c", content: "Welcome to SimpleChat chapter-trick", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "chapter-trick", user_color_class: "color-8", new_message: "", user_colors: %{"chapter-trick" => "color-8"}, user_list: MapSet.new(["chapter-trick"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "17", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 3ms
+[error] GenServer #PID<0.4352.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "d08ee8b8-abe6-43bb-b128-2dbc714e8741", content: "corner-dynamic joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"corner-dynamic" => %{metas: [%{phx_ref: "F-NDeeMYqFFLODkj", color_class: "color-11"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4352.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "91ef29a9-a761-4c5b-a8c0-8004aa50aed7", content: "Welcome to SimpleChat corner-dynamic", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "corner-dynamic", user_color_class: "color-11", new_message: "", user_colors: %{"corner-dynamic" => "color-11"}, user_list: MapSet.new(["corner-dynamic"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "18", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 665µs
+[error] GenServer #PID<0.4388.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "dcb4c466-97a1-4010-b26f-10943658a9ac", content: "icon-cafe joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"icon-cafe" => %{metas: [%{phx_ref: "F-NDeiXherZLOIEh", color_class: "color-19"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4388.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "41d60277-b315-4828-885e-a43fa30a2878", content: "Welcome to SimpleChat icon-cafe", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "icon-cafe", user_color_class: "color-19", new_message: "", user_colors: %{"icon-cafe" => "color-19"}, user_list: MapSet.new(["icon-cafe"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "19", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 820µs
+[error] GenServer #PID<0.4411.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "bbe7f6d0-6fa3-4377-a8c8-cfd8ecb8ceab", content: "chicago-mammal joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"chicago-mammal" => %{metas: [%{phx_ref: "F-NDemWutkNLODnj", color_class: "color-12"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4411.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "cdbd9f11-63e5-4662-959c-07570208f5b3", content: "Welcome to SimpleChat chicago-mammal", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "chicago-mammal", user_color_class: "color-12", new_message: "", user_colors: %{"chicago-mammal" => "color-12"}, user_list: MapSet.new(["chicago-mammal"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "20", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 667µs
+[error] GenServer #PID<0.4436.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "cfc2d898-a675-4865-8e86-aa229e345b12", content: "slogan-tower joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"slogan-tower" => %{metas: [%{phx_ref: "F-NDeqWeLTZLODsj", color_class: "color-20"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4436.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "159c9c0b-f7c0-4f08-85bf-60cdb08f3546", content: "Welcome to SimpleChat slogan-tower", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "slogan-tower", user_color_class: "color-20", new_message: "", user_colors: %{"slogan-tower" => "color-20"}, user_list: MapSet.new(["slogan-tower"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "21", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 488µs
+[error] GenServer #PID<0.4459.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "cec5e360-bf73-4cdc-a6bf-924c8154a7ad", content: "economy-maximum joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"economy-maximum" => %{metas: [%{phx_ref: "F-NDeuKxOCpLOIOh", color_class: "color-14"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4459.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "aa16a60e-bee3-4a62-9019-73ff42dd780b", content: "Welcome to SimpleChat economy-maximum", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "economy-maximum", user_color_class: "color-14", new_message: "", user_colors: %{"economy-maximum" => "color-14"}, user_list: MapSet.new(["economy-maximum"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "22", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 717µs
+[error] GenServer #PID<0.4483.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "7836f4e8-81db-443a-b38d-b4b45af543a8", content: "private-alias joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"private-alias" => %{metas: [%{phx_ref: "F-NDeyMU8tdLODvj", color_class: "color-8"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4483.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "f4c3e5eb-4aec-47a1-bb46-1e5a771427e3", content: "Welcome to SimpleChat private-alias", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "private-alias", user_color_class: "color-8", new_message: "", user_colors: %{"private-alias" => "color-8"}, user_list: MapSet.new(["private-alias"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "23", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 1ms
+[error] GenServer #PID<0.4506.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "c1757d27-dd08-4150-b65a-3e88f304ba59", content: "axis-amigo joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"axis-amigo" => %{metas: [%{phx_ref: "F-NDe2ISk45LOIUh", color_class: "color-7"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4506.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "8390cf7a-f0f8-4dbc-b442-39afc017abd0", content: "Welcome to SimpleChat axis-amigo", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "axis-amigo", user_color_class: "color-7", new_message: "", user_colors: %{"axis-amigo" => "color-7"}, user_list: MapSet.new(["axis-amigo"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "24", upload_names: %{}, upload_pids: %{}}
+[debug] MOUNT SimplechatWeb.RoomLive
+  Parameters: %{"id" => "open-parking-erosion-queen"}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 599µs
+[error] GenServer #PID<0.4529.0> terminating
+** (FunctionClauseError) no function clause matching in SimplechatWeb.RoomLive.display_message/1
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.ex:82: SimplechatWeb.RoomLive.display_message(%{type: :system, uuid: "5ae905e8-c5c4-4e9e-a692-5f8dc9143ac0", content: "romeo-nobody joined"})
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:7: anonymous fn/1 in SimplechatWeb.RoomLive.render/1
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (elixir 1.17.2) lib/enum.ex:1703: Enum."-map/2-lists^map/1-1-"/2
+    (simplechat 0.1.0) lib/simplechat_web/live/room_live.html.heex:6: anonymous fn/2 in SimplechatWeb.RoomLive.render/1
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:368: Phoenix.LiveView.Diff.traverse/7
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/diff.ex:136: Phoenix.LiveView.Diff.render/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:960: anonymous fn/4 in Phoenix.LiveView.Channel.render_diff/3
+    (telemetry 1.2.1) /home/car85/Documents/elixir/simplechat/simplechat/deps/telemetry/src/telemetry.erl:321: :telemetry.span/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:955: Phoenix.LiveView.Channel.render_diff/3
+    (phoenix_live_view 1.0.0-rc.6) lib/phoenix_live_view/channel.ex:811: Phoenix.LiveView.Channel.handle_changed/4
+    (stdlib 6.0.1) gen_server.erl:2173: :gen_server.try_handle_info/3
+    (stdlib 6.0.1) gen_server.erl:2261: :gen_server.handle_msg/6
+    (stdlib 6.0.1) proc_lib.erl:329: :proc_lib.init_p_do_apply/3
+Last message: %Phoenix.Socket.Broadcast{topic: "room:open-parking-erosion-queen", event: "presence_diff", payload: %{leaves: %{}, joins: %{"romeo-nobody" => %{metas: [%{phx_ref: "F-NDe6Iz0lNLOIWB", color_class: "color-7"}]}}}}
+State: %{socket: #Phoenix.LiveView.Socket<id: "phx-F-NDd-_QdICHB3qh", endpoint: SimplechatWeb.Endpoint, view: SimplechatWeb.RoomLive, parent_pid: nil, root_pid: #PID<0.4529.0>, router: SimplechatWeb.Router, assigns: %{messages: [%{uuid: "ff20c489-9bec-48e8-b97a-60df57bc5e76", content: "Welcome to SimpleChat romeo-nobody", color_class: "color-default", username: "system"}], __changed__: %{}, flash: %{}, topic: "room:open-parking-erosion-queen", live_action: :index, temporary_assigns: [messages: []], username: "romeo-nobody", user_color_class: "color-7", new_message: "", user_colors: %{"romeo-nobody" => "color-7"}, user_list: MapSet.new(["romeo-nobody"]), room_id: "open-parking-erosion-queen"}, transport_pid: #PID<0.4170.0>, ...>, components: {%{}, %{}, 1}, topic: "lv:phx-F-NDd-_QdICHB3qh", serializer: Phoenix.Socket.V2.JSONSerializer, join_ref: "25", upload_names: %{}, upload_pids: %{}}
+[info] GET /
+[debug] Processing with SimplechatWeb.PageLive.index/2
+  Parameters: %{}
+  Pipelines: [:browser]
+[info] Sent 200 in 2ms
+[info] CONNECTED TO Phoenix.LiveView.Socket in 37µs
+  Transport: :longpoll
+  Serializer: Phoenix.Socket.V2.JSONSerializer
+  Parameters: %{"_csrf_token" => "FwsSLQsfLw49DDQDHBYtPQZcK1NiAhRZCaZc8qbytfPLQqOSGid60JW0", "_live_referer" => "undefined", "_mounts" => "0", "_track_static" => %{"0" => "http://localhost:4000/assets/app.css", "1" => "http://localhost:4000/assets/app.js"}, "vsn" => "2.0.0"}
+[debug] MOUNT SimplechatWeb.PageLive
+  Parameters: %{}
+  Session: %{"_csrf_token" => "TjHN3nMwIjdOMgbnA5OeRHCi"}
+[debug] Replied in 114µs
+
+Rebuilding...
+
+Done in 42ms.
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+Compiling 1 file (.ex)
+
+BREAK: (a)bort (A)bort with dump (c)ontinue (p)roc info (i)nfo
+       (l)oaded (v)ersion (k)ill (D)b-tables (d)istribution

@@ -1,0 +1,67 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This file is for your main application CSS */
+
+#chat-container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cccccc;
+  padding: 1em;
+  margin: -1em 1 1em -1em;
+  height: 500px;
+}
+
+#chat-main {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+#chat-messages {
+  flex-grow: 1;
+  overflow-y: auto;
+  margin-right: 1em;
+}
+
+#user-list {
+  width: 200px;
+  border-left: 1px solid #cccccc;
+  padding-left: 1em;
+  overflow-y: auto;
+}
+
+
+.color-1 { color: #FF6F61; }
+.color-2 { color: #6B5B95; }
+.color-3 { color: #88B04B; }
+.color-4 { color: #F7CAC9; }
+.color-5 { color: #92A8D1; }
+.color-6 { color: #955251; }
+.color-7 { color: #B565A7; }
+.color-8 { color: #009B77; }
+.color-9 { color: #DD4124; }
+.color-10 { color: #D65076; }
+.color-11 { color: #45B8AC; }
+.color-12 { color: #EFC050; }
+.color-13 { color: #5B5EA6; }
+.color-14 { color: #9B2335; }
+.color-15 { color: #DFCFBE; }
+.color-16 { color: #55B4B0; }
+.color-17 { color: #E15D44; }
+.color-18 { color: #7FCDCD; }
+.color-19 { color: #BC243C; }
+.color-20 { color: #C3447A; }
+.color-21 { color: #98B4D4; }
+.color-22 { color: #BFD641; }
+.color-23 { color: #F7786B; }
+.color-24 { color: #6C5B7B; }
+.color-25 { color: #35465C; }
+.color-26 { color: #FFB447; }
+.color-27 { color: #D5B9B2; }
+.color-28 { color: #BC243C; }
+.color-29 { color: #5275A7; }
+.color-30 { color: #55B4B0; }
+.color-default { color: gray; }
+

@@ -1,3 +1,5 @@
+<p>Currently chatting in <strong><%= @room_id %></strong> as <strong><%= @username %></strong></p>
+
 <div id="chat-container">
   <div id="chat-main">
     <div id="chat-messages" phx-update="replace">
@@ -8,8 +10,8 @@
     <div id="user-list">
       <h2>Users Online</h2>
       <%= for user <- @user_list do %>
-        <p class={@user_colors[user]}><%= user %></p>
-      <% end %>
+          <p><%= user %></p>
+      <%= end %>
     </div>
   </div>
   <form phx-submit="submit_message" phx-change="form_update">
