@@ -59,7 +59,7 @@ Ensure you have the following installed:
 ### 🎨 UI/UX Enhancements
 
 - [x] **Assign Random Colors to Users**: Assign a unique, random color to each user's username, which will be displayed consistently in both the message list and the user list. **Completed in issue #1 with commit [73cdbd8](https://github.com/Car85/simplechat/commit/73cdbd816e4370c7b00c381258cf248a3706b7df)**
-- [ ] **Dark Mode**: Implement a dark mode theme with a toggle button to switch between light and dark modes.
+- [x] **Dark Mode**: Implement a dark mode theme with a toggle button to switch between light and dark modes.
 
 ### 🛠️ Additional Features
 
@@ -92,7 +92,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Happy hacking!
 
 
 ## Learn more
