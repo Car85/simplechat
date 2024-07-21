@@ -19,7 +19,6 @@ defmodule SimplechatWeb.Router do
     pipe_through :browser
     live "/", PageLive, :index
     live "/:id", RoomLive, :index
-    live "/emoji-picker", EmojiPickerLive
   end
 
   # Other scopes may use custom stacks.

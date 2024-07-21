@@ -139,3 +139,38 @@ body {
 .color-29 { color: #708090; }
 .color-30 { color: #008080; }
 .color-default { color: gray; }
+
+#emoji-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#emoji-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#emoji-list button {
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#emoji-list button:hover {
+  transform: scale(1.2);
+}
+
+#selected-emoji {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+
