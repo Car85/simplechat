@@ -66,9 +66,10 @@ Ensure you have the following installed:
 - [ ] **Api Rest**: Add an API REST
 - [x] **Emoji Support**: Add support for users to send and display emojis in their messages.
 
-<video width="320" height="240" controls>
-  <source src="./media/simple_chat_emojies.mp4" type="video/mp4">
-</video>
+## Emojies Demo Video
+
+[Watch Demo Video](./media/simple_chat_emojies.mp4)
+
 
 This utility has been incorporated since the commit: [ecf0137](https://github.com/Car85/simplechat/commit/ecf0137846bac19dc36526b0da0d7b094b074c26)
 
