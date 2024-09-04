@@ -79,6 +79,8 @@ This utility has been incorporated since the commit: [ecf0137](https://github.co
 - [ ] **Message Reactions**: Allow users to react to messages with emojis.
 - [ ] **User Profiles**: Create user profiles with customizable avatars and statuses.
 - [ ] **Create a Chromium Extension**: Develop a Chromium extension that integrates with the SimpleChat application. This extension should allow users to interact with the chat directly from their browser toolbar, providing notifications for new messages and enabling quick access to the chat interface.
+- [ ] **Create a Desktop Application**: Create a Simplechat Desktop option.
+
 
 ### 🔬  Testing
 
