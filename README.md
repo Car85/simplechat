@@ -67,7 +67,7 @@ Ensure you have the following installed:
 - [x] **Emoji Support**: Add support for users to send and display emojis in their messages.
 
 <video width="320" height="240" controls>
-  <source src="/media/simple_chat_emojies-2024-09-04_01.59.04.mkv" type="video/mkv">
+  <source src="/media/simple_chat_emojies.mp4" type="video/mp4">
 </video>
 
 This utility has been incorporated since the commit: [ecf0137](https://github.com/Car85/simplechat/commit/ecf0137846bac19dc36526b0da0d7b094b074c26)
