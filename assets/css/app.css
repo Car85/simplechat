@@ -33,7 +33,7 @@
 }
 
 .switch.checked {
-  background-color: #4682b4; 
+  background-color: #4682b4;
   }
 
 .switch.checked::before {
@@ -141,36 +141,34 @@ body {
 .color-default { color: gray; }
 
 #emoji-picker {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: relative; /* Asegura que el contenedor de emojis se superponga correctamente */
+  display: inline-block; /* Permite que el botón y la cuadrícula se alineen correctamente */
+  margin-top: 10px; /* Ajusta según tu diseño */
 }
 
-#emoji-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 20px;
-}
 
-#emoji-list button {
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-}
-
-#emoji-list button:hover {
-  transform: scale(1.2);
+select {
+  font-size: 1.5rem;
+  margin-right: 10px;
 }
 
 #selected-emoji {
   margin-bottom: 20px;
 }
 
-form {
-  display: flex;
-  gap: 10px;
+.emoji-grid {
+  padding-left: 2px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr)); /* Define columnas automáticas con tamaño mínimo de 40px */
+  gap: 10px; /* Espacio entre emojis */
+  max-height: 200px; /* Ajusta la altura máxima si es necesario */
+  overflow-y: auto; /* Permite desplazamiento si hay demasiados emojis */
+  background-color: #C0C0C0; /* Fondo del contenedor */
+  border: 1px solid #ccc; /* Borde del contenedor */
+  border-radius: 8px; /* Bordes redondeados */
+  position: absolute; /* Hace que el contenedor se despliegue sobre otros elementos */
+  z-index: 100; /* Asegura que esté sobre otros elementos */
+  bottom: 40px; /* Ajusta para despliegue hacia arriba */
+  left: 0; /* Alinea el contenedor con el botón de emojis */
+  width: 200px; /* Ajusta el ancho del contenedor según tus necesidades */
 }
-
-

@@ -16,11 +16,26 @@
         <p class={@user_colors[user]}><%= user %></p>
       <% end %>
     </div>
+  <div id="emoji-picker">
+     <button type="button" phx-click="toggle_emoji_list">😊</button>
+     <%= if @show_emoji_list do %>
+      <select name="emoji" phx-change="select_emoji">
+      <option value="">Select an emoji</option>
+        <%= for emoji <- @emojis do %>
+           <option value={emoji}><%= emoji %></option>
+        <% end %>
+      </select>
+      <div id="selected-emoji">
+        <%= if @selected_emoji do %>
+        <p>Selected Emoji: {@selected_emoji}</p>
+        <% end %>
+      </div>
+     <% end %>
+    </div>
   </div>
   <form style="background-color: grey;" phx-submit="submit_message" phx-change="form_update">
-    <div id="box-messages"> 
-        <input type="text" name="message" value={@new_message} placeholder="Enter Your Message..."/>
-    </div>    
+    <input id="box-messages" type="text" name="message" value={@new_message} placeholder="Enter Your Message..."/> 
     <button type="submit" style="width: 55px; background-color: #4B4B4B;">Send</button>
   </form>
 </div>
+
