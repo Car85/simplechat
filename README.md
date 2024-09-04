@@ -68,7 +68,7 @@ Ensure you have the following installed:
 
 ## Emojies Demo Video
 
-[Watch Demo Video](./media/simple_chat_emojies.mp4)
+![SimpleChat Demo](/assets/simple_chat_emojies.gif)
 
 
 This utility has been incorporated since the commit: [ecf0137](https://github.com/Car85/simplechat/commit/ecf0137846bac19dc36526b0da0d7b094b074c26)
