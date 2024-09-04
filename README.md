@@ -64,7 +64,15 @@ Ensure you have the following installed:
 ### 🛠️ Additional Features
 
 - [ ] **Api Rest**: Add an API REST
-- [ ] **Emoji Support**: Add support for users to send and display emojis in their messages.
+- [x] **Emoji Support**: Add support for users to send and display emojis in their messages.
+
+<video width="320" height="240" controls>
+  <source src="/media/simple_chat_emojies-2024-09-04_01.59.04.mkv" type="video/mkv">
+</video>
+
+This utility has been incorporated since the commit: [ecf0137](https://github.com/Car85/simplechat/commit/ecf0137846bac19dc36526b0da0d7b094b074c26)
+
+
 - [ ] **File Sharing**: Enable users to share files within the chat.
 - [ ] **Private Messaging**: Implement private messaging between users.
 - [ ] **Message Reactions**: Allow users to react to messages with emojis.
